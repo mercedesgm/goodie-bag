@@ -24,8 +24,8 @@ const { Candy } = require('../db/index')
 
 router.get('/candies', async (req, res, next) => {
   try {
-    const candies = await Candy.getAll()
-    res.send(candies)
+    const candies = await Candy.findAll()
+    res.json(candies)
   } catch (error) {
     next(error)
   }

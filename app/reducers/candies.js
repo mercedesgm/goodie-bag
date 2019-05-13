@@ -14,7 +14,8 @@ export const getCandyThunk = () => {
 const candyReducer = (state = [], action) => {
     switch (action.type) {
         case GOT_CANDY: {
-            return [...state, action.candies]
+            console.log(action.candies)
+            return [...state, ...action.candies]
         }
         default: {
             return state
