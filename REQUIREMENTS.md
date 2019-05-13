@@ -10,7 +10,7 @@ The requirements below are broken into step-by-step instructions, which model th
   - [ ] name - not empty or null
   - [ ] description - not empty or null
   - [ ] quantity - cannot exceed 10 of the same candy in your goodie bag
-  - [ ] imageUrl - with a default value
+  - [ ] imageUrl - with a default value -----> NEED TO DO
 - [ ] Write a route to serve up all candies
 
 #### Frontend
